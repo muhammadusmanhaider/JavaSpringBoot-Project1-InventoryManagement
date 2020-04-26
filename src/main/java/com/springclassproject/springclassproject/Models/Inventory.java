@@ -3,9 +3,8 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "inventory")
-public class Inventory
-
-{
+public class Inventory {
+    
     @Id
     @Column(name = "id")
     private String id;
@@ -16,8 +15,7 @@ public class Inventory
     @Column(name = "color")
     private String Color;
 
-    public Inventory()
-    {
+    public Inventory() {
 
     }
     public Inventory(String Price, String Description, String id, String Color) {
